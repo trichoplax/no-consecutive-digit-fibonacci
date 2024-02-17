@@ -47,5 +47,5 @@ fn no_consecutive_digits(n: &u64) -> bool {
 }
 
 fn consecutive((a, b): &&(u8, u8)) -> bool {
-    return a.abs_diff(*b) == 1;
+    a.abs_diff(*b) == 1
 }
